@@ -1,0 +1,4 @@
+from .adult_classifier import ButterflyClassifier
+from .danaus_classifier import DanausClassifier
+from .larva_classifier import LarvaClassifier
+from .stage_classifier import StageClassifier
