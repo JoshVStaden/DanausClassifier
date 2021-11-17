@@ -14,6 +14,13 @@ Two-step classification of Danaus species
 
 ## Step-by-Step
 
+### Config
+Modify `config.py` to specify:
+
+- Your dataset path
+- Your image size. If image size is 128, this will set images to be 128 x 128
+- Batch size
+
 ### Data Caching
 
 This software caches image files by saving datasets as `.npz` files. To do this, run:
